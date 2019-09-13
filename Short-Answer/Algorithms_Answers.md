@@ -12,5 +12,5 @@ c) This example is O(n) because the output increases as 'n' increases.
 
 ## Exercise II
 
-I know we're not suppsed to get distracted by the questions, but WHAT KIND OF EGGS ARE THESE.
+I know we're not supposed to get distracted by the questions, but WHAT KIND OF EGGS ARE THESE.
 
