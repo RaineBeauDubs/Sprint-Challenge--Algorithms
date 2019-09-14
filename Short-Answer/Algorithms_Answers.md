@@ -2,13 +2,13 @@
 
 ## Exercise I
 
-a) I'm going to go with O(n**2) on this one, but to be honest, this bit of psudocode is blowing my mind. I also kind of feel like it's O(n), though, because there's only one loop, so can we put that as my back-up answer, please? :)
+a) I'm going to go with O(n**3) on this one now.
 
 
-b) See, now this one looks like O(n) to me, too, which is making me rething all of my other answers. It does have two loops in it, but one's a while loop. 
+b) See, now this one looks like O(n) to me, too, which is making me rethink all of my other answers. It does have two loops in it, but one's a while loop. 
 
 
-c) This example is O(n) because the output increases as 'n' increases. 
+c) This example is O(n) because the output increases as 'n' increases. This one actually is O(n)
 
 ## Exercise II
 

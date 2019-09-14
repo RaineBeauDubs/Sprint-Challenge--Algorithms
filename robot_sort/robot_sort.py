@@ -96,8 +96,36 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
+        # I guess the first thing we need to figure out is how to pick up the item. Can we just immediately swap the item and if he's holding nothing, will he pick it up? Or does he just start out holding the first number in the list?
+        # Let's say it starts at the beginning of the list and is holding 15. It can move to the right and swap out anything that's smaller than the thing he's holding. <== this is not right at all, I know, scratch this entire comment.
+
+        # so it already knows how to swap, so if we're using a type of bubble sort, I won't have to redefine that part, I just have to figure out the 'swapped = true/false', which I'm assuming I can use his headlight for(???) and go from there.
+        # why did I not take more notes in my bubble sort?? That feels like 6 years ago now.
+        self.swap_item()
+        while self.can_move_right() == True:
+            self.move_right()
+            if self.compare_item() == -1:
+                self.move_left()
+                self.swap_item()
+                self.move_right()
+                self.swap_item()
+            if self.compare_item() == 1:
+                self.swap_item()
+                self.move_left()
+                self.swap_item()
+                self.move_right()
+        while self.can_move_right() == False:
+            if self.can_move_left() == True:
+                self.move_left()
+
+
+
+#           R = 41
+#lst = [15, N, 49, 58, 26, 4, 28, 8, 61, 60, 65, 21, 78, 14, 35]
+        
+                        
+
+
 
 
 if __name__ == "__main__":

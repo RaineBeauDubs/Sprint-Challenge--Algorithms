@@ -13,4 +13,4 @@ def count_th(word):
     return 0
   # this means that if there are "th"s after the initial "th", to find them and add them up.
   return 1 + count_th(word[find_th+2:])
-    
+     
